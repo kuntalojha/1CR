@@ -27,7 +27,7 @@ export default defineConfig({
       {
         text: 'BACKEND',
         items: [
-          { text: 'NODE.js', link: '/backend/node-js' },
+          { text: 'NODE.JS', link: '/backend/node-js' },
           // { text: 'Express.js', link: '/backend/expressjs' },
           // { text: 'MongoDB', link: '/backend/mongodb' },
           // { text: 'SQL', link: '/backend/sql' },
