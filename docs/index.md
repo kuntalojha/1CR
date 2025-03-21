@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: 'Mr. Kuntal Ojha'
-  text: 'Assistant Professor'
-  tagline: 'Department of Computer Science & Engineering'
+  text: '! CR'
+  tagline: 'Web Development'
   actions:
     - theme: brand
       text: Data Structure
@@ -12,9 +12,6 @@ hero:
     - theme: alt
       text: Data Structure Lab
       link: /dslab
-    - theme: brand
-      text: Result
-      link: /result
 
 features:
   - title: Linked List
