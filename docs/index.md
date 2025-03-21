@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: 'Mr. Kuntal Ojha'
-  text: '! CR'
-  tagline: 'Web Development'
+  name: '! CR'
+  text: 'Mr. Kuntal Ojha'
+  tagline: 'Full Stack Web Development'
   actions:
     - theme: brand
       text: FRONTEND
