@@ -14,19 +14,25 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Data Structure',
+        text: 'FRONTEND',
         items: [
-          { text: 'Module 01', link: '/ds/module-1' },
-          { text: 'Module 02', link: '/ds/module-2' },
-
+          { text: 'HTML', link: '/frontend/html' },
+          // { text: 'CSS', link: '/frontend/css' },
+          // { text: 'Tailwind CSS', link: '/frontend/tailwind' },
+          // { text: 'JavaScript', link: '/frontend/javascript' },
+          // { text: 'TypeScript', link: '/frontend/typescript' },
+          // { text: 'React', link: '/frontend/react' },
         ],
       },
       {
-        text: 'Data Structure Lab',
+        text: 'BACKEND',
         items: [
-          { text: 'Experiment 01', link: '/dslab/exp-1.md' },
-          { text: 'Experiment 02', link: '/dslab/exp-2.md' },
-          { text: 'Experiment 03', link: '/dslab/exp-3.md' },
+          { text: 'Node.js', link: '/backend/nodejs' },
+          // { text: 'Express.js', link: '/backend/expressjs' },
+          // { text: 'MongoDB', link: '/backend/mongodb' },
+          // { text: 'SQL', link: '/backend/sql' },
+          // { text: 'GraphQL', link: '/backend/graphql' },
+          // { text: 'REST API', link: '/backend/rest-api' },
         ],
       },
     ],

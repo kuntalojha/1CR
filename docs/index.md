@@ -7,20 +7,20 @@ hero:
   tagline: 'Web Development'
   actions:
     - theme: brand
-      text: Data Structure
-      link: /ds
+      text: FRONTEND
+      link: /frontend
     - theme: alt
-      text: Data Structure Lab
-      link: /dslab
+      text: BACKEND
+      link: /backend
 
 features:
-  - title: Linked List
-    icon: 🔗
-    details: Singly, Doubly, Circular Linked List.
-  - title: Stack
+  - title: HTML, CSS, Tailwind CSS,
+    icon: 🎨
+    details: It is a markup language used for structuring and presenting content on the World Wide Web.
+  - title: JavaScript
     icon: 📚
-    details: Stack is a linear data structure.
-  - title: Queue
-    icon: ⏪
-    details: It follows the principle of "First in, First out" (FIFO).
+    details: It is a programming language used for creating interactive effects within and around HTML and XML documents.
+  - title: Node.js
+    icon: 📦
+    details: It is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser, on the server-side.
 ---
