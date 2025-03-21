@@ -12,13 +12,15 @@ hero:
     - theme: alt
       text: BACKEND
       link: /backend
-
+    - theme: alt
+      text: TOOLS & SOFTWARE
+      link: /tools
 features:
-  - title: HTML, CSS, Tailwind CSS,
+  - title: HTML, CSS, Tailwind CSS
     icon: 🎨
     details: It is a markup language used for structuring and presenting content on the World Wide Web.
   - title: JavaScript
-    icon: 📚
+    icon: 👨‍💻
     details: It is a programming language used for creating interactive effects within and around HTML and XML documents.
   - title: Node.js
     icon: 📦

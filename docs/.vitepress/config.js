@@ -8,14 +8,13 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-    ],
+    nav: [{ text: 'Home', link: '/' }],
 
     sidebar: [
       {
         text: 'FRONTEND',
         items: [
+          { text: 'Hello World', link: '/frontend/hello-world' },
           { text: 'HTML', link: '/frontend/html' },
           // { text: 'CSS', link: '/frontend/css' },
           // { text: 'Tailwind CSS', link: '/frontend/tailwind' },
