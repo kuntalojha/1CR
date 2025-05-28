@@ -7,6 +7,9 @@ hero:
   tagline: 'Full Stack Web Development'
   actions:
     - theme: brand
+      text: DSA
+      link: /dsa
+    - theme: alt
       text: FRONTEND
       link: /frontend
     - theme: alt
@@ -16,6 +19,9 @@ hero:
       text: TOOLS & SOFTWARE
       link: /tools
 features:
+  - title: Data Structure & Algorithm
+    icon: 📊
+    details: It is a system of storing and organizing data so that it can be used effectively.
   - title: HTML, CSS, Tailwind CSS
     icon: 🎨
     details: It is a markup language used for structuring and presenting content on the World Wide Web.

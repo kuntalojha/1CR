@@ -12,6 +12,18 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'DSA',
+        items: [
+          { text: 'Algo', link: '/dsa/algo' },
+          // { text: 'DSA', link: '/onecr/dsa' },
+          // { text: 'Competitive Programming', link: '/onecr/cp' },
+          // { text: 'Interview Preparation', link: '/onecr/interview-preparation' },
+          // { text: 'System Design', link: '/onecr/system-design' },
+          // { text: 'Coding Challenges', link: '/onecr/coding-challenges' },
+          // { text: 'Resources', link: '/onecr/resources' },
+        ],
+      },
+      {
         text: 'FRONTEND',
         items: [
           { text: 'Hello World', link: '/frontend/hello-world' },
