@@ -11,7 +11,7 @@ Welcome to the DSA section. Below is the table of contents for quick navigation 
 
 ## 📚 Data Structures
 
-- [Arrays](/dsa/ds/arrays)
+<!-- - [Arrays](/dsa/ds/arrays)
 - [Linked Lists](/dsa/ds/linked-lists)
-- [Stacks & Queues](/dsa/ds/stacks-queues)
+- [Stacks & Queues](/dsa/ds/stacks-queues) -->
 
