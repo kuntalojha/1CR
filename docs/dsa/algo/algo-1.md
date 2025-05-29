@@ -78,3 +78,28 @@ main()
    x = y+2;
 }
 ```
+
+**Ex:02**
+```c
+main()
+{
+   x = y + z;
+   for(i=0;i<=n;i++)
+      x = y + z;
+}
+```
+
+**Ex:03**
+```c
+main()
+{
+   x = y + z;
+   for(i=0;i<=n;i++)
+      x = y + z;
+   for(i=0;i<=n;i++)
+   {
+      for(j=0;j<=n;j++)
+         x = y + z;
+   }
+}
+```
