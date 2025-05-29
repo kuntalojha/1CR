@@ -54,4 +54,27 @@
    - 2. Space Complaxcity.
 
 ### **Time Complaxcity:**
-- 
+- Time Complaxcity of a program = Time required for compiled + Time required for running.
+```md
+    T(Program) = T(Compiled)+T(Running).
+               = Compiler + Prosessor.
+               = Software + Hardware.
+               = Language of Compiler + Type of Hardware.
+```
+### **Analysis will be two types:**
+1. Apostiary Analysis.
+2. Apriori Analysis.
+
+### **Deference between Apostiary Analysis and Apriori Analysis:**
+- Apostiary Analysis:
+
+### **Apriori Analysis:**
+- It is a determination of order of magnitude of a statement.
+
+**Ex:01**
+```c
+main()
+{
+   x = y+2;
+}
+```
