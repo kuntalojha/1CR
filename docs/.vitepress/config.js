@@ -18,7 +18,8 @@ export default defineConfig({
           {
             text: 'Algorithms',link: '/dsa/algo/algo',
             items: [
-              { text: 'Analysing Algorithm', link: '/dsa/algo/algo-1' },
+              { text: 'Analysing Algo-1', link: '/dsa/algo/algo-1' },
+              { text: 'Analysing Algo-2', link: '/dsa/algo/algo-2' },
               // { text: 'Searching', link: '/dsa/algo/searching' },
               // { text: 'Recursion', link: '/dsa/algo/recursion' },
             ],

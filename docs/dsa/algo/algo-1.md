@@ -66,7 +66,11 @@
 2. Apriori Analysis.
 
 ### **Deference between Apostiary Analysis and Apriori Analysis:**
-- Apostiary Analysis:
+| Apostiary Analysis. | Apriori Analysis. |
+|:--------------------|:------------------|
+|1. It is  based on language of compiler and type of CPU. |1. It is independent of language of compiler and type of CPU. |
+|2. It provides exact answer. |2. It provides approximate answer. |
+|3. Deffrent answer from deffrent system. |3. Same answer in all the system. |
 
 ### **Apriori Analysis:**
 - It is a determination of order of magnitude of a statement.

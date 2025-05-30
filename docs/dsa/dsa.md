@@ -4,7 +4,8 @@ Welcome to the DSA section. Below is the table of contents for quick navigation 
 
 ## 🧠 Algorithms
 
-- [Analysing Algorithm](/dsa/algo/algo-1)
+- [Analysing Algorithm P-1](/dsa/algo/algo-1)
+- [Analysing Algorithm P-2](/dsa/algo/algo-2)
 <!-- - [Searching](/dsa/algo/searching)
 - [Recursion](/dsa/algo/recursion)
 - [Divide & Conquer](/dsa/algo/divide-conquer) -->
