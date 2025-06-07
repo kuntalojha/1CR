@@ -160,3 +160,5 @@ main()
   }
 }
 ```
+- **NOTE**
+  - I promis, Write any program first I will write Algoritham the I will write Program. I wii do it for all Program from today onward.
