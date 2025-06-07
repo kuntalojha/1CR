@@ -161,4 +161,4 @@ main()
 }
 ```
 - **NOTE**
-  - I promis, Write any program first I will write Algoritham the I will write Program. I wii do it for all Program from today onward.
+  - _"I promise, before writing any program, I will first write its algorithm. I will follow this practice for every program from today onward."_
