@@ -4,7 +4,7 @@ Welcome to the DSA section. Below is the table of contents for quick navigation 
 
 ## HTML
 
-- [Hello-World P-1](/frontend/html/hello-world)
+- [Hello-World P-1](/frontend/html/html-1)
 <!-- 
 - [Analysing Algorithm P-2](/dsa/algo/algo-2) 
 - [Searching](/dsa/algo/searching)
