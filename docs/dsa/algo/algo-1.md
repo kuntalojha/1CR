@@ -1,4 +1,4 @@
-#  **Analysing Algorithm (TC & SC).**
+#  **Analysing Algorithm (TC & SC)**
 
 ### **Algorithms Definition:**
  - It is a combination of sequence of finite steps to solve a particular problem.
