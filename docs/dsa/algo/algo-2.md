@@ -162,3 +162,44 @@ main()
 ```
 - **NOTE**
   - _"I promise, before writing any program, I will first write its algorithm. I will follow this practice for every program from today onward."_
+
+**Ex:13**
+```c
+main()
+{
+  i = 1;
+  while(i<=n>)
+  {
+    i = i+7;
+    i = i+9;
+    i = i+25;
+  }
+}
+```
+
+**Ex:14**
+```c
+main()
+{
+  i = 1;
+  while(i<=n>)
+  {
+    i = i+10;
+    i = i+20;
+    i = i+30;
+  }
+}
+```
+
+**Ex:15**
+```c
+main()
+{
+  i = 1;
+  while(i<=n>)
+  {
+    i = 2*i;
+  }
+}
+```
+
