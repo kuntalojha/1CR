@@ -39,6 +39,16 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/frontend/frontend' },
           {
+            text: 'Web Foundation',
+            link: '/frontend/foundation/foundation',
+            items: [
+              { text: 'Hello World', link: '/frontend/foundation/1-hello-world' },
+              { text: 'Introduction to Web', link: '/frontend/foundation/2-introduction-web' },
+              // { text: 'Git & GitHub-1', link: '/frontend/foundation/3-git-github' },
+              // { text: 'Git & GitHub-2', link: '/frontend/foundation/4-git-github' },
+            ],
+          },
+          {
             text: 'HTML',
             link: '/frontend/html/html',
             items: [
