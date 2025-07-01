@@ -168,7 +168,7 @@ main()
 main()
 {
   i = 1;
-  while(i<=n>)
+  while(i<=n)
   {
     i = i+7;
     i = i+9;
@@ -182,7 +182,7 @@ main()
 main()
 {
   i = 1;
-  while(i<=n>)
+  while(i<=n)
   {
     i = i+10;
     i = i+20;
@@ -196,10 +196,95 @@ main()
 main()
 {
   i = 1;
-  while(i<=n>)
+  while(i<=n)
   {
     i = 2*i;
   }
 }
 ```
+**Ex:16**
+```c
+main()
+{
+  i = 1;
+  while(i<=n)
+  {
+    i = 3*i;
+  }
+}
+```
 
+**Note:**
+- i = 1*i => log<sub>1</sub> n
+- i = 2*i => log<sub>2</sub> n
+- i = 3*i => log<sub>3</sub> n
+- i = 4*i => log<sub>4</sub> n
+- i = 10*i => log<sub>10</sub> n
+- i = 100*i => log<sub>100</sub> n
+
+**Ex:17**
+```c
+main()
+{
+  i = 1;
+  while(i<=n)
+  {
+    i = 2*i;
+    i = 3*i;
+  }
+}
+```
+**Ex:17A**
+```c
+main()
+{
+  i = 1;
+  while(i<=n)
+  {
+    i = 2*i;
+    i = 3*i;
+    i = 4*i;
+  }
+}
+```
+
+**Ex:18**
+```c
+main()
+{
+  i = n;
+  while(i>n)
+  {
+    i = i/2;
+  }
+}
+```
+
+**Ex:19**
+```c
+main()
+{
+  i = n;
+  while(i>n)
+  {
+    i = i/2;
+    i = i/3;
+  }
+}
+```
+
+**Note:**
+- i = 1/i => log<sub>1</sub> n
+- i = 2/i => log<sub>2</sub> n
+- i = 3/i => log<sub>3</sub> n
+- i = 4/i => log<sub>4</sub> n
+- i = 10/i => log<sub>10</sub> n
+- i = 100/i => log<sub>100</sub> n
+
+**Ex:20**
+```c 
+main()
+{
+  
+}
+```
