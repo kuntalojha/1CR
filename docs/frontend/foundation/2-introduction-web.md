@@ -22,5 +22,13 @@ outline: deep
    - Web Servers, Web Browsers, and Web Apps.
 
 
-**TCP** - Transmission Control Protocol.
+**TCP** - Transmission Control Protocol.<br>
+- 3-Way handshak
+
 **UDP** - User Datagram Protocol.
+
+1-> 1.1-> 2-> 3
+HTTP - Hypertext Transfer Protocol
+
+
+**`H:\ChaiCode` is my all code for learning this Web Development.**

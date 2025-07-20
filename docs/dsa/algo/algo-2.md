@@ -253,7 +253,7 @@ main()
 main()
 {
   i = n;
-  while(i>n)
+  while(i>1)
   {
     i = i/2;
   }
@@ -265,14 +265,27 @@ main()
 main()
 {
   i = n;
-  while(i>n)
+  while(i>1)
   {
     i = i/2;
     i = i/3;
   }
 }
 ```
-
+**Ex:19A**
+```c 
+main()
+{
+  i = n;
+  while(i>1)
+  {
+    i = i/5;
+    i = i/7;
+    i = i/2;
+    i = i/3;
+  }
+}
+```
 **Note:**
 - i = 1/i => log<sub>1</sub> n
 - i = 2/i => log<sub>2</sub> n
@@ -285,6 +298,50 @@ main()
 ```c 
 main()
 {
-  
+  i = n;
+  while(i>1)
+  {
+    i = i/5;
+    i = i/7;
+    i = i/2;
+    i = i/2;
+    i = 4*i;
+  }
+}
+```
+**Ex:21**
+```c
+main()
+{
+  i = n;
+  while(i>75){
+    i = i/2;
+    i = i/7;
+  }
+}
+```
+
+**Ex:22**
+```c
+main()
+{
+  i = 270;
+  while(i<n){
+    i = 2*i;
+    i = 3*i;
+    i = 4*i;
+  }
+}
+```
+
+**Ex:23**
+```c
+main()
+{
+  i= 2;
+  while(i<n)
+  {
+    i = i^2;
+  }
 }
 ```
