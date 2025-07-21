@@ -16,7 +16,8 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/dsa/dsa' },
           {
-            text: 'Algorithms', link: '/dsa/algo/algo',
+            text: 'Algorithms',
+            link: '/dsa/algo/algo',
             items: [
               { text: 'Analysing Algo-1', link: '/dsa/algo/algo-1' },
               { text: 'Analysing Algo-2', link: '/dsa/algo/algo-2' },
@@ -26,12 +27,21 @@ export default defineConfig({
           },
           {
             text: 'Data Structures',
+            link: '/dsa/ds/ds',
             items: [
-              // { text: 'Arrays', link: '/dsa/ds/arrays' },
+              { text: 'Data Structures-1', link: '/dsa/ds/ds-1' },
               // { text: 'Linked Lists', link: '/dsa/ds/linked-lists' },
               // { text: 'Stacks & Queues', link: '/dsa/ds/stacks-queues' },
             ],
           },
+        ],
+      },
+      {
+        text: 'Version Control',
+        link: '/versioncontrol/versioncontrol',
+        items: [
+          { text: 'Git', link: '/versioncontrol/git' },
+          { text: 'GitHub', link: '/versioncontrol/github' },
         ],
       },
       {
@@ -42,18 +52,16 @@ export default defineConfig({
             text: 'Web Foundation',
             link: '/frontend/foundation/foundation',
             items: [
-              { text: 'Hello World', link: '/frontend/foundation/1-hello-world' },
-              { text: 'Introduction to Web', link: '/frontend/foundation/2-introduction-web' },
+              {
+                text: 'Hello World',
+                link: '/frontend/foundation/1-hello-world',
+              },
+              {
+                text: 'Introduction to Web',
+                link: '/frontend/foundation/2-introduction-web',
+              },
               // { text: 'Git & GitHub-1', link: '/frontend/foundation/3-git-github' },
               // { text: 'Git & GitHub-2', link: '/frontend/foundation/4-git-github' },
-            ],
-          },          ,
-          {
-            text: 'Version Control',
-            link: '/frontend/versioncontrol/versioncontrol',
-            items: [
-              { text: 'Git', link: '/frontend/versioncontrol/git-1' },
-              { text: 'GitHub', link: '/frontend/versioncontrol/github-2' },
             ],
           },
           {
@@ -79,7 +87,7 @@ export default defineConfig({
               { text: 'CSS-1', link: '/frontend/javascript/js-1' },
               { text: 'CSS-2', link: '/frontend/javascript/js-2' },
             ],
-          }
+          },
         ],
       },
       {
@@ -102,4 +110,3 @@ export default defineConfig({
     ],
   },
 });
-
