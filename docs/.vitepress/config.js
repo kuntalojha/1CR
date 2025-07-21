@@ -47,6 +47,14 @@ export default defineConfig({
               // { text: 'Git & GitHub-1', link: '/frontend/foundation/3-git-github' },
               // { text: 'Git & GitHub-2', link: '/frontend/foundation/4-git-github' },
             ],
+          },          ,
+          {
+            text: 'Version Control',
+            link: '/frontend/versioncontrol/versioncontrol',
+            items: [
+              { text: 'Git', link: '/frontend/versioncontrol/git-1' },
+              { text: 'GitHub', link: '/frontend/versioncontrol/github-2' },
+            ],
           },
           {
             text: 'HTML',
@@ -64,6 +72,14 @@ export default defineConfig({
               { text: 'CSS-2', link: '/frontend/css/css-2' },
             ],
           },
+          {
+            text: 'JavaScript',
+            link: '/frontend/javascript/js',
+            items: [
+              { text: 'CSS-1', link: '/frontend/javascript/js-1' },
+              { text: 'CSS-2', link: '/frontend/javascript/js-2' },
+            ],
+          }
         ],
       },
       {

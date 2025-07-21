@@ -2,4 +2,6 @@
 outline: deep
 ---
 
-# HTTP
+# HTML
+
+**HTML** - Hypertext Markup Language.
