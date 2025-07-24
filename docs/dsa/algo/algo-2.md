@@ -1,8 +1,11 @@
-#  **Analysing Algorithm (TC & SC)**
+# **Analysing Algorithm (TC & SC)**
+
 ### **Apriori Analysis:**
+
 - It is a determination of order of magnitude of a statement.
 
 **Ex:04**
+
 ```c
 main()
 {
@@ -15,6 +18,7 @@ main()
 ```
 
 **Ex:05**
+
 ```c
 main()
 {
@@ -30,10 +34,12 @@ main()
   }
 }
 ```
+
 **Ex:06**
+
 ```c
 main()
-{ 
+{
   i = 1;
   while(i<=n)
   {
@@ -44,6 +50,7 @@ main()
 ```
 
 **Ex:07**
+
 ```c
 main()
 {
@@ -56,6 +63,7 @@ main()
 ```
 
 **Ex:07**
+
 ```c
 main()
 {
@@ -68,6 +76,7 @@ main()
 ```
 
 **Ex:08**
+
 ```c
 main()
 {
@@ -82,6 +91,7 @@ main()
 ```
 
 **Ex:09**
+
 ```c
 main()
 {
@@ -92,7 +102,9 @@ main()
   }
 }
 ```
+
 **Ex:09**
+
 ```c
 main()
 {
@@ -105,6 +117,7 @@ main()
 ```
 
 **Ex:10**
+
 ```c
 main()
 {
@@ -119,6 +132,7 @@ main()
 ```
 
 **Ex:11**
+
 ```c
 main()
 {
@@ -131,7 +145,9 @@ main()
   }
 }
 ```
+
 **Ex:11**
+
 ```c
 main()
 {
@@ -147,6 +163,7 @@ main()
 ```
 
 **Ex:12**
+
 ```c
 main()
 {
@@ -160,10 +177,12 @@ main()
   }
 }
 ```
+
 - **NOTE**
   - _"I promise, before writing any program, I will first write its algorithm. I will follow this practice for every program from today onward."_
 
 **Ex:13**
+
 ```c
 main()
 {
@@ -178,6 +197,7 @@ main()
 ```
 
 **Ex:14**
+
 ```c
 main()
 {
@@ -192,6 +212,7 @@ main()
 ```
 
 **Ex:15**
+
 ```c
 main()
 {
@@ -202,7 +223,9 @@ main()
   }
 }
 ```
+
 **Ex:16**
+
 ```c
 main()
 {
@@ -215,14 +238,16 @@ main()
 ```
 
 **Note:**
-- i = 1*i => log<sub>1</sub> n
-- i = 2*i => log<sub>2</sub> n
-- i = 3*i => log<sub>3</sub> n
-- i = 4*i => log<sub>4</sub> n
-- i = 10*i => log<sub>10</sub> n
-- i = 100*i => log<sub>100</sub> n
+
+- i = 1\*i => log<sub>1</sub> n
+- i = 2\*i => log<sub>2</sub> n
+- i = 3\*i => log<sub>3</sub> n
+- i = 4\*i => log<sub>4</sub> n
+- i = 10\*i => log<sub>10</sub> n
+- i = 100\*i => log<sub>100</sub> n
 
 **Ex:17**
+
 ```c
 main()
 {
@@ -234,7 +259,9 @@ main()
   }
 }
 ```
+
 **Ex:17A**
+
 ```c
 main()
 {
@@ -249,6 +276,7 @@ main()
 ```
 
 **Ex:18**
+
 ```c
 main()
 {
@@ -261,6 +289,7 @@ main()
 ```
 
 **Ex:19**
+
 ```c
 main()
 {
@@ -272,8 +301,10 @@ main()
   }
 }
 ```
+
 **Ex:19A**
-```c 
+
+```c
 main()
 {
   i = n;
@@ -286,7 +317,9 @@ main()
   }
 }
 ```
+
 **Note:**
+
 - i = 1/i => log<sub>1</sub> n
 - i = 2/i => log<sub>2</sub> n
 - i = 3/i => log<sub>3</sub> n
@@ -295,7 +328,8 @@ main()
 - i = 100/i => log<sub>100</sub> n
 
 **Ex:20**
-```c 
+
+```c
 main()
 {
   i = n;
@@ -309,7 +343,9 @@ main()
   }
 }
 ```
+
 **Ex:21**
+
 ```c
 main()
 {
@@ -322,6 +358,7 @@ main()
 ```
 
 **Ex:22**
+
 ```c
 main()
 {
@@ -335,6 +372,7 @@ main()
 ```
 
 **Ex:23**
+
 ```c
 main()
 {
@@ -342,6 +380,99 @@ main()
   while(i<n)
   {
     i = i^2;
+  }
+}
+```
+
+**NONE**
+
+- `i = 200;`
+- `i+2 = 202 => n/2;`
+- `i-2 = 198 => n/2;`
+- `i*2 = 400 => log`<sub>2</sub> n
+- `i/2 = 100 => log`<sub>2</sub> n
+- `i^2 = 40000 => log`<sub>2</sub> (log<sub>2</sub> n)
+- `i^1/2 = 100 => log`<sub>2</sub> (log<sub>2</sub> n)
+
+**Ex:24**
+
+```c
+main()
+{
+  i= 25;
+  while(i<n)
+  {
+    i = i^3;
+  }
+}
+```
+
+**Ex:25**
+
+```c
+main()
+{
+  i= n;
+  while(i>2)
+  {
+    i = i^1/2;
+  }
+}
+```
+
+**Ex:26**
+
+```c
+main()
+{
+  i = n;
+  while(i>64)
+  {
+    i = i^1/51;
+  }
+}
+```
+
+**Ex:27**
+
+```c
+main()
+{
+  i = 25;
+  while(i<n)
+  {
+    i = i^31;
+    i = i^2;
+    i = i^3;
+  }
+}
+```
+
+**Ex:28**
+
+```c
+main()
+{
+  i = 64;
+  while(i<n)
+  {
+    i = i^1/2;
+    i = i^1/3;
+  }
+}
+```
+
+**Ex:29**
+
+```c
+main()
+{
+  i = 10;
+  while(i<=n)
+  {
+    i = i + 7;
+    i = i * 10;
+    i = i ^ 9;
   }
 }
 ```
