@@ -2,4 +2,6 @@
 outline: deep
 ---
 
-# Version Control.
+# Version Control
+- **VCS** - Version Control System.
+- **Examples** - Git, Subversion, Mercurial,Perforce.  
