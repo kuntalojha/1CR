@@ -10,5 +10,9 @@
 - You have to make a Teacket id for solve the essue.
 - For solving the issue you have to mention proper description for the issue.
 
-
+### Assignment 2
+- PRD Todo App
+- PRD for Juice Shop.
+- PRD for Car Washing.
+- PRD for Salon.
 ## DSA Assignment
