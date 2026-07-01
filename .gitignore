@@ -1,4 +1,5 @@
 /node_modules
 *.pdf
-desc/.vitepress/dist
-desc/.vitepress/cache
+dosc/.vitepress/dist
+dosc/.vitepress/cache
+/docs/frontend/javascript/complete-javascript-course-master/
